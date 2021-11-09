@@ -68,7 +68,7 @@ import com.google.android.material.textfield.TextInputLayout;
      }
 
      private void initListeners() {
-         Glide.with(this).load("https://i.pinimg.com/474x/23/ab/a6/23aba60b66ef08174bb7455c4a8a2d2f.jpg").into(image);
+         Glide.with(this).load("https://i.pinimg.com/474x/23/ab/a6/23aba60b66efww08174bb7455c4a8a2d2f.jpg").into(image);
      }
  }
 
