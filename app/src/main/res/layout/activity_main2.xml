@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:layout_marginVertical="15sp"
+        android:src="@drawable/avatar"
+        android:layout_marginHorizontal="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/EDIT"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        android:layout_marginVertical="6sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avatar"
+        android:text="Edit Photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Username"
+        android:layout_marginTop="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EDIT"
+        app:endIconMode="clear_text"
+        android:layout_marginHorizontal="19sp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NAME"
+            android:layout_height="wrap_content"
+            android:paddingVertical="17sp"
+            android:layout_width="match_parent"
+            android:paddingStart="20sp"
+            android:hint="Name"
+            />
+</com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Lastn"
+        android:layout_marginTop="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Username"
+        android:layout_marginHorizontal="19sp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/LastNAME"
+            android:layout_height="wrap_content"
+            android:paddingVertical="17sp"
+            android:layout_width="match_parent"
+            android:paddingStart="18sp"
+            android:hint="LastName"
+            />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/Private"
+        android:textSize="20sp"
+        android:layout_marginTop="17sp"
+        android:paddingStart="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lastn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Private information"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gmail"
+        android:layout_marginTop="16sp"
+        app:endIconMode="clear_text"
+
+        app:startIconDrawable="@drawable/email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Private"
+        android:layout_marginHorizontal="19sp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/com"
+            android:layout_height="wrap_content"
+            android:paddingVertical="17sp"
+            android:layout_width="match_parent"
+            android:paddingStart="20sp"
+            android:hint="Email"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TEL"
+        android:layout_marginTop="16sp"
+        app:endIconMode="clear_text"
+
+        app:startIconDrawable="@drawable/phone_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gmail"
+        android:layout_marginHorizontal="19sp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phone"
+            android:layout_height="wrap_content"
+            android:paddingVertical="17sp"
+            android:layout_width="match_parent"
+            android:paddingStart="20sp"
+            android:hint="Number"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:layout_marginTop="16sp"
+        app:startIconDrawable="@drawable/lock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TEL"
+        android:layout_marginHorizontal="19sp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/word"
+            android:layout_height="wrap_content"
+            android:paddingVertical="17sp"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:paddingStart="20sp"
+            android:hint="Password"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

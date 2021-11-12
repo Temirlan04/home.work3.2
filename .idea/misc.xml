@@ -4,10 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/drawable/email.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/drawable/lock.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/drawable/phone_24.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/drawable/ramka.xml" value="0.2611111111111111" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/drawable/sera.xml" value="0.3740234375" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/layout/activity_main.xml" value="0.72" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/layout/activity_main2.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Lesson31/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26296296296296295" />
       </map>
