@@ -52,10 +52,12 @@ import com.google.android.material.textfield.TextInputLayout;
              @RequiresApi(api = Build.VERSION_CODES.M)
              @Override
              public void afterTextChanged(Editable s) {
-                 if (Username.getText().toString().length() > 0) {
+                 if (Username.getText().toString().length() >= 1 && shift.getText().toString().trim().length() > 6) {
                      GO.setBackgroundColor(getColor(R.color.black));
                  } else {
                      GO.setBackgroundColor(getColor(R.color.teal_700));
+                     pass.setError("Пароль не должен быть меньше 6");
+                     requestFocus(shift);
                      {
 
                      }
@@ -97,12 +99,6 @@ import com.google.android.material.textfield.TextInputLayout;
              pass.setError("Ввидите пароль!");
              requestFocus(shift);
              return false;
-         }else {
-             if (shift.getText().toString().trim().length() < 6){
-                 pass.setError("Пароль не должен быть меньше 6");
-                 requestFocus(shift);
-                 return false;
-             }
          }
      return true;
 
