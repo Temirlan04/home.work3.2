@@ -46,7 +46,6 @@ import com.google.android.material.textfield.TextInputLayout;
 
              @Override
              public void onTextChanged(CharSequence s, int start, int before , int count) {
-
              }
 
              @RequiresApi(api = Build.VERSION_CODES.M)
